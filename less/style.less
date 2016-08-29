@@ -1,0 +1,142 @@
+@import "variables.less";
+@import "mixins.less";
+.bg-light {
+  background-color: white;
+}
+
+.font-plain {
+  font-size: 16px;
+  line-height: 18px;
+  color: @theme-dark;
+  font-weight: 100;
+}
+
+.navbar-plain {
+  background-color: white;
+  border-color: fade(@theme-dark, 5%);
+  .navbar-header .navbar-brand {
+    color: @theme-primary;
+    font-size: 14px;
+    &:hover,
+    &:focus {
+      color: darken(@theme-primary, 10%);
+    }
+  }
+  .nav > li > a,
+  .nav > li > a:focus {
+    color: @theme-dark;
+    &:hover {
+      color: @theme-primary;
+    }
+  }
+}
+
+.bibleheader {
+  margin-top: 50px;
+  padding: 10px;
+  .btn {
+    border: 1px solid lightgray;
+  }
+}
+
+.biblebuttons {
+  padding: 10px;
+  .pager {
+    margin: 0;
+  }
+  a {
+    color: @theme-primary;
+    &:focus {
+      color: @theme-primary;
+    }
+  }
+  button {
+    border: 1px solid lightgray;
+  }
+  &.affix {
+    top: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+}
+
+.affix-wrapper {
+  min-height: 54px;
+  margin-bottom: 20px;
+}
+
+#books {
+  padding: 20px 0;
+  ul {
+    list-style: none;
+    column-count: 2;
+    li {
+      margin-bottom: 0px;
+      text-align: left;
+      padding-left: 30px;
+      padding-bottom: 10px;
+      a {
+        .font-plain;
+        text-transform: capitalize;
+        &:hover {
+          text-decoration: none;
+          border-bottom: 1px @theme-dark dotted;
+          color: lighten(@theme-dark, 70%);
+        }
+      }
+    }
+  }
+}
+
+#read {
+  padding-top: 20px;
+  .init {
+    display: block;
+    width: 100px;
+    float: left;
+    font-size: 56px;
+    margin-right: 10px;
+    margin-top: 7px;
+    padding: 18px;
+  }
+  .verses {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 100;
+    text-align: justify
+  }
+}
+
+#searchList {
+  padding-top: 20px;
+  .font-plain;
+  h2 {
+    margin-bottom: 20px;
+  }
+  a {
+    color: @theme-dark;
+    &:hover {
+      color: @theme-primary
+    }
+  }
+}
+
+#bookModal,
+#chapterModal,
+#bibleModal {
+  a {
+    .font-plain;
+    text-transform: capitalize;
+    margin-right: 5px;
+    color: @theme-dark;
+    &:hover {
+      color: @theme-primary
+    }
+  }
+  .modal-body,
+  .modal-footer {
+    text-align: left;
+    word-wrap: break-word;
+  }
+}

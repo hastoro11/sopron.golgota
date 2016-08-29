@@ -1,0 +1,144 @@
+.bg-light {
+  background-color: white;
+}
+.font-plain {
+  font-size: 16px;
+  line-height: 18px;
+  color: #222;
+  font-weight: 100;
+}
+.navbar-plain {
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+}
+.navbar-plain .navbar-header .navbar-brand {
+  color: #F05F40;
+  font-size: 14px;
+}
+.navbar-plain .navbar-header .navbar-brand:hover,
+.navbar-plain .navbar-header .navbar-brand:focus {
+  color: #eb3812;
+}
+.navbar-plain .nav > li > a,
+.navbar-plain .nav > li > a:focus {
+  color: #222;
+}
+.navbar-plain .nav > li > a:hover,
+.navbar-plain .nav > li > a:focus:hover {
+  color: #F05F40;
+}
+.bibleheader {
+  margin-top: 50px;
+  padding: 10px;
+}
+.bibleheader .btn {
+  border: 1px solid lightgray;
+}
+.biblebuttons {
+  padding: 10px;
+}
+.biblebuttons .pager {
+  margin: 0;
+}
+.biblebuttons a {
+  color: #F05F40;
+}
+.biblebuttons a:focus {
+  color: #F05F40;
+}
+.biblebuttons button {
+  border: 1px solid lightgray;
+}
+.biblebuttons.affix {
+  top: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.affix-wrapper {
+  min-height: 54px;
+  margin-bottom: 20px;
+}
+#books {
+  padding: 20px 0;
+}
+#books ul {
+  list-style: none;
+  column-count: 2;
+}
+#books ul li {
+  margin-bottom: 0px;
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+#books ul li a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #222;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+#books ul li a:hover {
+  text-decoration: none;
+  border-bottom: 1px #222 dotted;
+  color: #d4d4d4;
+}
+#read {
+  padding-top: 20px;
+}
+#read .init {
+  display: block;
+  width: 100px;
+  float: left;
+  font-size: 56px;
+  margin-right: 10px;
+  margin-top: 7px;
+  padding: 18px;
+}
+#read .verses {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 100;
+  text-align: justify;
+}
+#searchList {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #222;
+  font-weight: 100;
+}
+#searchList h2 {
+  margin-bottom: 20px;
+}
+#searchList a {
+  color: #222;
+}
+#searchList a:hover {
+  color: #F05F40;
+}
+#bookModal a,
+#chapterModal a,
+#bibleModal a {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 100;
+  text-transform: capitalize;
+  margin-right: 5px;
+  color: #222;
+}
+#bookModal a:hover,
+#chapterModal a:hover,
+#bibleModal a:hover {
+  color: #F05F40;
+}
+#bookModal .modal-body,
+#chapterModal .modal-body,
+#bibleModal .modal-body,
+#bookModal .modal-footer,
+#chapterModal .modal-footer,
+#bibleModal .modal-footer {
+  text-align: left;
+  word-wrap: break-word;
+}

@@ -1,0 +1,112 @@
+section.bibleheader {
+  /*background-color: rgba(2, 2, 2, .7);*/
+  /*background-image: url("../img/bible_header.jpg");*/
+  background-image: none;
+  padding: 50px 0 0px 0;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, .7);
+  /*height: 0;*/
+}
+
+#bibleBooks {
+  padding-top: 30px;
+}
+
+.biblesearch {
+  padding: 10px 0;
+}
+
+.biblesearch label {
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.biblesearch button {
+  border: 1px solid #ccc;
+}
+
+.books h3,
+ul li a {
+  font-weight: 200;
+}
+
+.books ul {
+  list-style: none;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.books ul li {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.books ul li a {
+  font-size: 18px;
+  color: rgba(0, 0, 0, .7);
+  text-transform: capitalize;
+}
+
+header .header-content .header-content-inner h1 {
+  font-weight: 200;
+}
+
+#mainNavReader,
+#mainNavBible {
+  border-color: rgba(34, 34, 34, .05);
+  background-color: #fff;
+}
+
+#mainNavReader .navbar-brand,
+#mainNavBible .navbar-brand {
+  font-size: 14px;
+  color: #f05f40;
+}
+
+#mainNavReader.navbar-default .nav > li > a,
+#mainNavBible.navbar-default .nav > li > a,
+#mainNavReader.navbar-default .nav > li > a:focus,
+#mainNavBible.navbar-default .nav > li > a:focus {
+  color: #222;
+}
+
+.biblereader {
+  font-weight: 200;
+  padding-top: 30px;
+}
+
+.biblereader .chapterno {
+  font-size: 3em;
+  padding-right: 0.3em;
+  float: left;
+}
+
+.biblereader p {
+  text-align: justify;
+}
+
+footer {
+  background-color: #000;
+  color: rgba(255, 255, 255, .7);
+  font-weight: 200;
+  padding: 20px 0;
+}
+
+footer h3,
+footer h4 {
+  text-transform: uppercase;
+}
+
+footer p {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+footer address {
+  color: #fff;
+}
